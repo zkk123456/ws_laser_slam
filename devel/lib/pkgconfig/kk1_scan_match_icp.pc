@@ -1,0 +1,8 @@
+prefix=/home/nuc/ws_kk_laser_slam/devel
+
+Name: kk1_scan_match_icp
+Description: Description of kk1_scan_match_icp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

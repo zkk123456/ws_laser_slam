@@ -1,0 +1,2 @@
+kk1_scan_match_icp
+-DCATKIN_DEVEL_PREFIX=/home/nuc/ws_kk_laser_slam/devel -DCMAKE_INSTALL_PREFIX=/home/nuc/ws_kk_laser_slam/install -G Unix Makefiles

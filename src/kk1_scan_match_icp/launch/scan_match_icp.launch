@@ -1,0 +1,14 @@
+
+
+<launch>
+
+    <!-- 启动节点 -->
+    <node name="kk1_scan_match_icp_node"
+        pkg="kk1_scan_match_icp" type="kk1_scan_match_icp_node" output="screen" />
+    
+    <!-- launch rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" required="false"
+        args="-d $(find kk1_scan_match_icp)/launch/scan_match_icp.rviz" />
+
+
+</launch>
